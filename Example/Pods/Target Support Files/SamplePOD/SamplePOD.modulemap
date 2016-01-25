@@ -1,0 +1,6 @@
+framework module SamplePOD {
+  umbrella header "SamplePOD-umbrella.h"
+
+  export *
+  module * { export * }
+}
