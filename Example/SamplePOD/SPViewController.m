@@ -26,4 +26,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)clickButtonAction:(id)sender {
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Alert" message:@"Hello World...!" delegate:nil cancelButtonTitle:nil otherButtonTitles:@"Ok", nil];
+    [alertView show];
+}
+
 @end
